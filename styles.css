@@ -75,7 +75,13 @@ p{
 #About-me{
     padding: 40px;
     color: white;
+    border-radius: 20px;
+    transition: all 0.4s ease ;
 
+}
+#About-me:hover{
+    background-color: #aa8383;
+    transform: scale(1.05);
 }
 .about-txt{
     font-size: 16px;
