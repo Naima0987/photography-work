@@ -86,7 +86,13 @@ p{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .logo{
-    background-color: #2c1b18;
+    background-color: #b1776d;
     text-align: center;
     padding: 30px;
+}
+.logo h1{
+    color:burlywood;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
 }
