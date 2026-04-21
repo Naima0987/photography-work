@@ -136,5 +136,9 @@ nav a:hover{
 }
 #gallery{
     transition: all 0.3s ease ;
-    
+
+}
+#gallery:hover{
+    transform: scale(1.05);
+margin: 20px 0;
 }
