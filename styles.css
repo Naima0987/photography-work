@@ -207,3 +207,12 @@ form button:active{
 #contact:hover{
     background-color: #aa8383;
 }
+.about-me-content img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border-radius: 10px;
+}
+
+.about-me-content img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
