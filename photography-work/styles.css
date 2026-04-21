@@ -36,3 +36,10 @@ padding: 24px;
 image{
     max-width: 100%;
 }
+section#about-me{
+    background-color: rgb(124, 38, 38);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
