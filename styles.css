@@ -125,3 +125,16 @@ nav a:hover{
     margin-bottom: 30px;
     display: inline-block;
 }
+#gallery h2::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: #b1776d;
+    left: 25%;
+    bottom: -10px;
+}
+#gallery{
+    transition: all 0.3s ease ;
+    
+}
