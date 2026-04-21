@@ -118,3 +118,10 @@ nav a{
 nav a:hover{
     color: #ffd7c2;
 }
+#gallery h2{
+    font: size 2.5em;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    display: inline-block;
+}
