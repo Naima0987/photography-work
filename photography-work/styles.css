@@ -100,3 +100,18 @@ p{
 a{
     text-decoration: none;
 }
+nav{
+    text-align: center;
+    padding: 15px;
+    background-color: #2c1b18;
+
+}
+nav a{
+    color:white;
+    margin: 0 15px;
+    text-decoration: none;
+     font-weight: bold;
+}
+nav a:hover{
+    color: #ffd7c2;
+}
