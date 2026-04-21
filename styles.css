@@ -195,3 +195,9 @@ form button:active{
     transition: color 0.3s ease;
     position: relative;
 }
+#contact:hover h2{
+    color: #ffd7c2;
+}
+#contact:hover{
+    background-color: #aa8383;
+}
