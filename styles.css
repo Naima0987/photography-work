@@ -25,7 +25,14 @@ header{
     width: 300px;
         background-color: #2c1b18;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
 
+
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
 }
 
 img{
@@ -58,6 +65,7 @@ img{
 }
 p{
     margin: 10px 0;
+    color: #f5e9e2;
 }
 .about-me-content{
     display: flex;
@@ -72,14 +80,14 @@ p{
     border-radius: 50%;
 
 }
-#About-me{
+#about-me{
     padding: 40px;
     color: white;
     border-radius: 20px;
     transition: all 0.4s ease ;
 
 }
-#About-me:hover{
+#about-me:hover{
     background-color: #aa8383;
     transform: scale(1.05);
 }
@@ -125,12 +133,14 @@ nav a{
     margin: 0 15px;
     text-decoration: none;
      font-weight: bold;
+     transition: color 0.3s ease;
 }
 nav a:hover{
     color: #ffd7c2;
 }
+
 #gallery h2{
-    font: size 3.5em;
+    font-size: 3.5em;
     text-align: center;
     position: relative;
     margin-bottom: 30px;
@@ -221,4 +231,24 @@ form button:active{
 .about-me-content img:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+html{
+    scroll-behavior: smooth;
+}
+button{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+h2{
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+footer {
+    background-color: #2c1b18;
+    color: #f5e9e2;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 40px;
 }
